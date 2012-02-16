@@ -1,0 +1,9 @@
+[submodule "include/PageError"]
+	path = include/PageError
+	url = git://github.com/patrickmccoy/PageError.git
+[submodule "include/Twig"]
+	path = include/Twig
+	url = git://github.com/fabpot/Twig.git
+[submodule "include/php-router"]
+	path = include/php-router
+	url = git://github.com/robap/php-router.git
