@@ -1,6 +1,6 @@
-{% extends "base.html" %}
+{% extends "layout.html" %}
 
-{% block title %}Sendbox{% endblock %}
+{% block title %}php-site-template{% endblock %}
 
 {% block content %}
 <div class="row">
@@ -8,62 +8,12 @@
         <div class="tabbable">
             <ul class="nav nav-tabs">
                 <li class="active"><a href="#about" data-toggle="tab">About</a></li>
-                <li><a href="#sign-up" data-toggle="tab">Sign Up</a></li>
-                <li><a href="#send" data-toggle="tab">Send File</a></li>
             </ul>
             <div class="tab-content">
                 <!-- About -->
                 <div class="tab-pane active" id="about">
-                    <p>Sendbox is a file sharing mechanism that allows anyone to send you files.  Ever had something you needed someone to send you but it was too big to email?  Sendbox allows your friends to upload and share files with you.</p>
-                </div>
-                
-                <!-- Signup Form -->
-                <div class="tab-pane" id="sign-up">
-                    <form class="form-horizontal">
-                        <fieldset>
-                            <legend>Sign up for an account</legend>
-                
-                            <div class="control-group">
-                                <label class="control-label" for="email">Email</label>
-                                <div class="controls">
-                                    <input type="text" class="input-xlarge" id="email" placeholder="jonsmith@gmail.com">
-                                </div>
-                            </div>
-                            <div class="control-group">
-                                <label class="control-label" for="username">Username</label>
-                                <div class="controls">
-                                    <input type="text" class="input-xlarge" id="username" placeholder="jonsmith">
-                                </div>
-                            </div>
-                            <div class="control-group">
-                                <label class="control-label" for="password">Password</label>
-                                <div class="controls">
-                                    <input type="password" class="input-xlarge" id="password">
-                                </div>
-                            </div>
-                            <div class="control-group">
-                                <label class="control-label" for="confirm">Confirm Password</label>
-                                <div class="controls">
-                                    <input type="password" class="input-xlarge" id="confirm">
-                                </div>
-                            </div>
-                
-                            <div class="form-actions">
-                                <button type="submit" class="btn btn-primary">Sign Up</button>
-                                <button type="reset" class="btn">Cancel</button>
-                            </div>
-                        </fieldset>
-                    </form>
-                </div>
-                
-                <!-- Send File -->
-                <div class="tab-pane" id="send">
-                    <form id="fileupload">
-                        <fieldset>
-                            <legend>Send a file here</legend>
-                        <input type="file">
-                        </fieldset>
-                    </form>
+                    <p>php-site-template allows you to start out with a scaffolding to build a php application on top of.  The template uses very minimal router and templating engines to process requests in an easy to understand manner.</p>
+                    <p>Start out using php-site-template now by checking out the latest version of the code <a href="https://github.com/patrickmccoy/php-site-template">on GitHub here.</a>
                 </div>
                 
             </div>

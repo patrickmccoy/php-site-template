@@ -17,8 +17,7 @@ require_once INCLUDE_DIR .'/Twig/lib/Twig/Autoloader.php';
 // register the Twig Autoloader
 Twig_Autoloader::register();
 
-// Create a new instance of Router (you'd likely use a factory or container to
-// manage the instance)
+// Create a new instance of Router
 $router = new Router;
 
 // Get an instance of Dispatcher
