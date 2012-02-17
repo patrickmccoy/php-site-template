@@ -11,4 +11,4 @@ a quick and dirty template for creating your own php sites
 # License
 php-site-template is licensed under the [MIT License](http://www.opensource.org/licenses/mit-license.php).
 
-See the [LICENSE](blob/master/LICENSE.txt) for more details.
+See the [LICENSE](php-site-template/blob/master/LICENSE.txt) for more details.
